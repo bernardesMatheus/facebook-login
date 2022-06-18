@@ -48,7 +48,7 @@ form{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgb(0, 0, 0, 0.1);
     border-radius: 6px;
     padding: 14px;
-    margin: 80px 20px 20px 20px;
+    margin: 50px 20px 20px 20px;
 }
 
 form input[type="text"], form input[type="password"]{
@@ -97,7 +97,7 @@ form input[type="submit"]:hover{
 }
 
 .esqueceu-senha{
-    margin-top: 10px;
+    margin: 10px auto;
     display: block;
     text-align: center;
 
@@ -109,4 +109,27 @@ form input[type="submit"]:hover{
 
 .esqueceu-senha:hover{
     text-decoration: underline;
+}
+
+.custom-hr{
+    margin: 20px;
+    width: 100%;
+    border-bottom: 1px solid #dadef1;
+}
+
+.criar-conta{
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-left: 100px;
+    display: inline-block;
+
+    color: #fff;
+    background-color: #48ce2e;
+    font-weight: bold; 
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.criar-conta:hover{
+    background-color: #43a82e;
 }
